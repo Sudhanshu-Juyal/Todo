@@ -1,0 +1,101 @@
+@media(min-width:900px)
+{
+	body
+{
+	background-image: url(do.jpg);
+	height:100vh;
+	background-size: cover;
+	position: relative;
+}
+header
+{
+	width:100%;
+	height:80px;
+	position:fixed;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.1);
+	z-index:5; 
+}
+.for
+{
+	position: fixed;
+	width:40%;
+	top:15px;
+	right:500px;
+
+
+}
+.new
+{
+	position: fixed;
+	right:500px;
+	top:15px;
+    
+}
+.activity
+{
+	padding-top: 140px;
+}
+.list-group-item
+{
+font-size:20px;
+margin:20px;
+width:50%;
+position:relative;
+left:280px;
+}
+.main
+{
+	background:#17202A;
+	width:25%;
+	height:150px;
+	border-radius:5rem;
+	position: fixed;
+	left:75%;
+	bottom: 5%;
+	z-index:100;
+
+}
+.badge
+{
+	color:white;
+	position:relative;
+	left:80px;
+	bottom:21px;
+	background:#EC7063; 
+    width:60%;
+	
+}
+.badge h5
+{
+	font-size: 25px;
+	z-index:5;
+}
+span
+{
+	color:white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+    padding:2px;
+    position:relative;
+    left:90px;
+    bottom:2px;
+}
+.img
+{
+	position:relative;
+	z-index: 100;
+	left:220px;
+	top:10px;
+	height:45px;
+	width:50px;
+}
+.today
+{
+	font-size:20px;
+   position: relative;
+   left:10px;
+   padding: 2px;
+}
+}

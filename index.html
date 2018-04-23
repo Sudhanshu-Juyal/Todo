@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+</head>
+<body>
+	
+	<img src="todo.jpg" alt="todo" class="img">
+	<div class="main">
+		<div class="badge">
+			<span id="date" class="today"></span>
+			<span id="month" class="today"></span>
+			<span id="year" class="today"></span>
+		</div>
+		<div class="span">
+			<span id="hour">2:</span>
+			<span id="minutes">3:</span>
+			<span id="seconds">4</span>
+		</div>
+	</div>
+<header>
+<div class="container">
+	<form id="frm">
+		<div class="for">
+		<input id="ut" type="text" class="form-control" placeholder="Enter the Activity">
+		<button id="bt" type="submit" class="btn btn-primary new"><i class="fas fa-plus"></i>Add</button>
+	</div>
+	</form>
+</div>
+</header>
+<div class="activity">
+	<ul id="list">
+		<!--<li class="list-group-item">item1<button class="btn btn-default btn-info float-right"><i class="far fa-trash-alt"></i></button></li>-->
+	</ul>
+	</div>
+	
+	<script src=main.js></script>
+</body>
+</html>
